@@ -1,0 +1,57 @@
+{
+  "summary": {
+    "cap": 64,
+    "requests": 5,
+    "exceeded": 5,
+    "max_observed": 2592,
+    "max_ratio": 40.5,
+    "cap_is_hard": false
+  },
+  "rows": [
+    {
+      "prompt": "Count slowly from 1 to 200, one number per line, w",
+      "max_tokens": 64,
+      "completion_tokens": 150,
+      "finish_reason": "length",
+      "exceeded_cap": true,
+      "ratio": 2.34,
+      "latency_s": 5.504
+    },
+    {
+      "prompt": "Explain in detail, with many examples, how a hash ",
+      "max_tokens": 64,
+      "completion_tokens": 173,
+      "finish_reason": "length",
+      "exceeded_cap": true,
+      "ratio": 2.7,
+      "latency_s": 6.82
+    },
+    {
+      "prompt": "Write out the alphabet repeatedly until you are to",
+      "max_tokens": 64,
+      "completion_tokens": 2592,
+      "finish_reason": "length",
+      "exceeded_cap": true,
+      "ratio": 40.5,
+      "latency_s": 76.851
+    },
+    {
+      "prompt": "List every two-letter combination of the English a",
+      "max_tokens": 64,
+      "completion_tokens": 2293,
+      "finish_reason": "length",
+      "exceeded_cap": true,
+      "ratio": 35.83,
+      "latency_s": 57.631
+    },
+    {
+      "prompt": "Describe at length the history of computing from 1",
+      "max_tokens": 64,
+      "completion_tokens": 315,
+      "finish_reason": "length",
+      "exceeded_cap": true,
+      "ratio": 4.92,
+      "latency_s": 10.449
+    }
+  ]
+}

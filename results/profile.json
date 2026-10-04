@@ -1,0 +1,23 @@
+{
+  "system_prompt_chars": 632,
+  "system_prompt_words": 111,
+  "budgets": {
+    "answerable": 600,
+    "refusal": 600
+  },
+  "runs": 3,
+  "mean_completion_tokens": 67.7,
+  "runs_hitting_budget": 0,
+  "no_answer_line": 0,
+  "compliance_failures": 0,
+  "answerable_accuracy": 1.0,
+  "refusal_correctness": null,
+  "median_latency_s": 3.278,
+  "larrs_score": null,
+  "waste_signals": {
+    "instruction_overhead_chars": 632,
+    "budget_exhaustion_runs": 0,
+    "unemitted_answer_lines": 0,
+    "refusal_failures": 0
+  }
+}
