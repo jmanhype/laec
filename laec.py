@@ -118,6 +118,8 @@ def stratified_sample(prompts: list[dict], n_answerable: int, n_refusal: int) ->
     refusal behaviour the compiler is supposed to optimise.
     """
     def take(cat, want):
+        if want <= 0:
+            return []
         pool = [p for p in prompts if p["category"] == cat]
         if want >= len(pool):
             return pool
